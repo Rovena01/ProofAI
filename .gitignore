@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# Application Uploads (keep directory structure)
+datasets/uploads/*
+!datasets/uploads/.gitkeep
+
+# Operating System & IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+# Environment / secrets
+.env
+.env.*
+!.env.example
